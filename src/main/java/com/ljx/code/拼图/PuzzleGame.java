@@ -38,7 +38,7 @@ public class PuzzleGame extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         tiles = new int[size][size];
-        imageTiles = splitImage("E:\\project\\Java\\JAVA\\src\\main\\java\\game\\拼图\\image.png");
+        imageTiles = splitImage("E:\\project\\Java\\game\\src\\main\\resources\\image.png");
         initializeTiles();
         shuffleTiles();
         panel = new JPanel() {
